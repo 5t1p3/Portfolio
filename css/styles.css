@@ -164,7 +164,7 @@ p {
     width: 95vw;
   }
 }
-/* added during recording */
+
 .underline {
   width: 5rem;
   height: 0.25rem;
@@ -273,8 +273,7 @@ Sidebar
   background: var(--clr-grey-10);
   z-index: 4;
   display: grid;
-  /* align-items: center;
-  justify-content: center; */
+
   place-items: center;
   -webkit-transition: var(--transition);
   transition: var(--transition);
@@ -390,7 +389,6 @@ Hero
     grid-template-columns: 1fr 1fr;
   }
 }
-/* underline added to globals */
 
 /*
 =============== 
@@ -425,9 +423,8 @@ About
     align-self: center;
   }
 }
-/* section title added to globals */
 
-/*
+/*  
 =============== 
 Services
 ===============
@@ -479,8 +476,6 @@ Services
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-/* small screen layout setup */
-/* bg-grey in globals */
 
 /*
 =============== 
